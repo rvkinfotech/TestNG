@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="true" name="Suite">
+<parameter name="name" value="Nagarjuna"/>
+<parameter name="datasource" value="Oracle"/>
+<parameter name="jdbcDriver" value="ojdbc.oracle.driver"/>
+  <test name="Test1">
+    <classes>
+      <class name="demo.parameters.ParametersDemo"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ 
+  
+</suite> <!-- Suite -->
